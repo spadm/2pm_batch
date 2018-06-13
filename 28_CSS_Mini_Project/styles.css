@@ -1,0 +1,136 @@
+/* -------- Main Footer --------- */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.main-header{
+    background-image: url("images/technology.JPG");
+    background-size: cover;
+    padding: 15px;
+    color: white;
+    text-align: right;
+}
+
+/* --------- Main Navigation --------- */
+.main-nav{
+    background-color: #131004;
+    overflow: hidden;
+}
+.main-nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.main-nav ul li{
+    float: left;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    display: inline-block;
+}
+.main-nav ul li a:hover{
+    background-color: #4C5236;
+}
+.main-nav ul li a.active{
+    background-color: #6FBC5B;
+}
+.fa{
+    color: lightgray;
+}
+
+/* --------- Latest News -------- */
+.fa-smile-o{
+    color: white;
+}
+.latest-news{
+    background-color: #131004;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    animation: latest-news 2s infinite linear;
+}
+
+@keyframes latest-news {
+    0% , 50% , 100%{
+        background-color: #4C5236;
+    }
+    25% , 75%{
+        background-color: #131004;
+    }
+}
+
+.latest-news p{
+    margin: 0;
+    animation: news 10s infinite linear;
+}
+@keyframes news {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* ---------- Home News Section --------- */
+.home-news-section{
+    width: 1100px;
+    height: auto;
+    margin-left: 150px;
+}
+.home-news-article{
+    border: 2px solid #131004;
+    width: 330px;
+    height: 550px;
+    float: left;
+    text-align: center;
+    margin: 5px;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.home-news-article:hover{
+    cursor: pointer;
+    width: 350px;
+    box-shadow: 5px 5px 15px #131004;
+}
+.home-news-text{
+    padding: 10px;
+}
+
+.home-news-article img{
+    width: 100%;
+}
+
+/* ------- Break -------- */
+.break{
+    clear: both;
+}
+
+
+/* ---------- Main Footer -------- */
+.main-footer{
+    background-color: #131004;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-footer small , a{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
